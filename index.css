@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:serif;
+}
+a{
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+}
+button{
+    border-radius: 35%;
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    color: rgb(230, 225, 225);
+}
+body{
+    background-color: white;
+}
+img{
+    width: 630px;
+    height: 500px;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: auto;
+    row-gap: 1rem;
+    margin-left: 150px;
+}
+.container{
+    padding-top: 6rem;
+    display: grid;
+    /* position: relative;
+    left: 100px; */
+    gap: 3rem;
+}
+nav{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    gap: 40px;
+    width: 25%;
+    position: fixed;
+    background-color: rgb(230, 225, 225);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.inf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 500px;
+}
+.longbt button{
+    width: 110px;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+button:hover{
+    background-color: white;
+}
+.inf h1{
+    font-size: 60px;
+    padding-right: 450px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.img1:hover{
+    animation: blurEffect 4s ease-in-out infinite;
+}
+@keyframes blurEffect{
+    0%, 100% {
+    filter: blur(0px);
+    }
+    50% {
+    filter: blur(5px);
+}
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.ff{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+.f{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 6rem;
+}
+.pon a{
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.pon a:hover{
+    color: rgb(188, 186, 186);
+}
